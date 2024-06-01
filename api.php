@@ -5,7 +5,7 @@ if (isset($_GET['role']) && isset($_GET['prompt']) && $_GET['role'] != '' && $_G
 
 
   // Define the secret key and endpoint
-  $secretKey = 'your-private-key';
+  $secretKey = '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';
   $endpoint = 'https://api.groq.com/openai/v1/chat/completions';
 
   // Create the data payload
